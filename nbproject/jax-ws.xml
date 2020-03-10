@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="funds">
+      <implementation-class>org.funds.funds</implementation-class>
+    </service>
+    <service name="authentication">
+      <implementation-class>org.auth.authentication</implementation-class>
+    </service>
+    <service name="registration">
+      <implementation-class>org.reg.registration</implementation-class>
+    </service>
+    <service name="coins">
+      <implementation-class>org.coins.coins</implementation-class>
+    </service>
+    <service name="trans">
+      <implementation-class>org.trans.trans</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
